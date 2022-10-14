@@ -4,14 +4,14 @@
  * main-program entry point.
  * Return:zero if no error, non zero if error.
  **/
- int main(void)
- {
- char i;
+int main(void)
+{
+char i;
 
- for (i = 'a'; i <= 'z'; i++)
- {
+for (i = 'a'; i <= 'z'; i++)
+{
  putchar(i);
- }
+}
  putchar('\n');
  return (0);
- }
+}
