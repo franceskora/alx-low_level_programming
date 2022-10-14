@@ -1,9 +1,9 @@
-i#include <stdio.h>
+#include <stdio.h>
 
 /**
  * main-program entry point.
  * Return:zero if no error, non zero if error.
- **?
+ **/
  int main(void)
  {
  char i;
