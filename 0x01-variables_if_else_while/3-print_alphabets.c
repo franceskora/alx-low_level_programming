@@ -2,8 +2,9 @@
 
 /**
  * main-program entry point.
+ *
  * Return:zero if no error, non zero if error.
- **/
+ */
 int main(void)
 {
 	char i;
@@ -13,7 +14,7 @@ int main(void)
 	{
 		putchar(i);
 	}
-	for (j= 'A'; j < = 'Z'; j++)
+	for (j = 'A'; j <= 'Z'; j++)
 	{putchar(j);
 	}
 	putchar('\n');
