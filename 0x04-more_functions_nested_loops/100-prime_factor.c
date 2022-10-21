@@ -18,7 +18,7 @@ int main(void)
 			i--;
 		}
 	}
-	printf("%1u\n", i);
+	printf("%lu\n", i);
 
 	return (0);
 }
