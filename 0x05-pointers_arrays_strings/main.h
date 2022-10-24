@@ -7,5 +7,6 @@ void _puts(char *str);
 int _strlen(char *s);
 void print_rev(char *s);
 void print_array(int *a, int n);
+int _atoi(char *s);
 
 #endif
