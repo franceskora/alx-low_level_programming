@@ -20,7 +20,9 @@ char *str_concat(char *s1, char *s2)
 	unsigned int length_c;
 
 	if (s1 == NULL)
-		si = "";
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
 
 	for (length_S1 = 0; s1[length_S1] != '\0'; length-S1++)
 		;
