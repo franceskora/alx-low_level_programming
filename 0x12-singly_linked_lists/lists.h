@@ -4,11 +4,13 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 /**
  * struct list_s - singly linked list
- * @str: length of the string
+ * @str: string - (malloc'ed string)
  * @next: points to the next node
+ * @len: length of the string
  *
  * Description: singly linked list node structure
  */
