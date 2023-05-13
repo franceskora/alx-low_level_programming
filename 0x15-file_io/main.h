@@ -1,11 +1,11 @@
 #ifndef MAIN_H
-#define MAIN_H
+#define MAIN_N
 
 #include <elf.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include <unistd.h>
 #include <fcntl.h>
-#include <stdio.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 
@@ -15,7 +15,7 @@ int append_text_to_file(const char *filename, char *text_content);
 
 /**
  * ELF header functions
- */
+*/
 void check_elf(unsigned char *e_ident);
 void print_magic(unsigned char *e_ident);
 void print_class(unsigned char *e_ident);
